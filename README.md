@@ -1,10 +1,10 @@
 J2534 Tool
 
-Cross-platform rewrite / clone of Drew Technologies "J2534 Bus analysis tool", available from
+Cross-platform (C++, wxWidgets) rewrite / clone of Drew Technologies "J2534 Bus analysis tool", originally available from
 
 http://drewtech.com/downloads/index.html
 
-The GUI is based on the 1.07 release source code (published under GPL2)
+The GUI is based on the 1.07 release source code (published under GPL2).
 The original software was written in VisualBasic; this project is a C++ rewrite using wxWidgets.
 
 While the J2534 API was designed for Windows only, the exposed API is standard C with no Windows-specific elements.
