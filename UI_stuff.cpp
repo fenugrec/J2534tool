@@ -236,7 +236,7 @@ frmMainBase::frmMainBase( wxWindow* parent, wxWindowID id, const wxString& title
 	sizCon_Con = new wxStaticBoxSizer( new wxStaticBox( tabConnect, wxID_ANY, _("Connect") ), wxVERTICAL );
 	
 	wxFlexGridSizer* fgSizer2;
-	fgSizer2 = new wxFlexGridSizer( 4, 2, 0, 0 );
+	fgSizer2 = new wxFlexGridSizer( 0, 2, 0, 0 );
 	fgSizer2->SetFlexibleDirection( wxBOTH );
 	fgSizer2->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 	
